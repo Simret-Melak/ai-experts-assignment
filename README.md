@@ -32,15 +32,15 @@ Update this README to include:
 
 - how to run the tests locally,
    
-python3 -m venv venv
-source venv/bin/activate
-python3 -m pip install -r requirements.txt
-python3 -m pytest -v
+1. `python3 -m venv venv`
+2. `source venv/bin/activate`
+3. `python3 -m pip install -r requirements.txt`
+4. `python3 -m pytest -v`
 
 - how to build and run tests with Docker.
 
-docker build -t ai-experts-assignment .
-docker run --rm ai-experts-assignment
+1. `docker build -t ai-experts-assignment .`
+2. `docker run --rm ai-experts-assignment`
 
 ### 4) Find + fix a bug (required)
 
