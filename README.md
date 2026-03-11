@@ -31,7 +31,16 @@ Create a `requirements.txt` with pinned versions, using this format:
 Update this README to include:
 
 - how to run the tests locally,
+    ```bash
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 -m pytest -v
+
 - how to build and run tests with Docker.
+
+docker build -t ai-experts-assignment .
+docker run --rm ai-experts-assignment
 
 ### 4) Find + fix a bug (required)
 
